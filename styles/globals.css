@@ -30,6 +30,7 @@ a {
 
 hr {
   border: 0.04rem solid var(--white);
+  margin-bottom: 1rem;
 }
 
 ul {

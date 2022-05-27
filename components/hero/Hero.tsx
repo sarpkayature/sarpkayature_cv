@@ -1,7 +1,7 @@
 import Image from "next/image";
 import hero from "../../assets/hero-modified.png";
 import styles from "../../styles/common.module.css";
-
+import { SocialBar } from "../index";
 const Hero = () => {
   return (
     <section
@@ -25,6 +25,7 @@ const Hero = () => {
           experienced animations and creating intuitive, dynamic user
           experiences.
         </p>
+        <SocialBar />
         <div className={`${styles.flex} ${styles["actions-container"]}`}>
           <button className={styles["action-button"]}>Download CV</button>
           <div className={styles["action-button"]}>
