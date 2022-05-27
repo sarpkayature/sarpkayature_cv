@@ -1,0 +1,215 @@
+.container {
+  padding: 0 4rem;
+  position: relative;
+}
+
+.none {
+  display: none;
+}
+
+.flex {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.inline-flex {
+  display: inline-flex;
+  flex-flow: nowrap;
+}
+
+.inner-flex {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.inner-icon {
+  margin-right: 0.5rem;
+  width: 4rem !important;
+}
+.self-center {
+  align-self: center;
+}
+
+.column {
+  flex-flow: column wrap;
+}
+
+.flex-child {
+  flex: 1;
+}
+
+.emphasized-text {
+  color: var(--default-pink);
+}
+
+.light-text {
+  color: var(--white);
+}
+
+.hero {
+  position: sticky;
+  top: 1rem;
+  padding: 0 3rem;
+  height: 100vh;
+  color: var(--white);
+}
+
+.hero-img-container {
+  margin: 1.3rem;
+  width: 13rem;
+  align-self: center;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 30px -6px var(--white);
+  -moz-box-shadow: 0px 0px 30px -6px rgba(248, 248, 248, 0.75);
+  box-shadow: 0px 0px 30px -6px rgba(248, 248, 248, 0.75);
+}
+
+.hero-img {
+  vertical-align: middle;
+}
+
+.hero-type-writer h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid var(--default-orange); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.2rem; /* Adjust as needed */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+.pilot {
+  padding: 0 7rem;
+  text-align: center;
+}
+
+.action-button {
+  margin: 0 2rem;
+  background-color: var(--default-bg-color);
+  color: var(--default-pink);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.action-button:hover {
+  transition: 0.5s ease-out;
+  color: var(--white);
+  -webkit-box-shadow: 0px 0px 26px -6px var(--white);
+  -moz-box-shadow: 0px 0px 26px -6px rgba(248, 248, 248, 0.75);
+  box-shadow: 0px 0px 26px -6px rgba(248, 248, 248, 0.75);
+}
+
+.sticky-home-wrapper {
+  margin-top: 5rem;
+  display: block;
+  color: var(--white);
+}
+
+.card {
+  background-color: var(--default-bg-color);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem;
+  color: var(--white);
+  -webkit-box-shadow: 0px 0px 16px 0px rgba(248, 248, 248, 0.19);
+  -moz-box-shadow: 0px 0px 16px 0px rgba(248, 248, 248, 0.19);
+  box-shadow: 0px 0px 16px 0px rgba(248, 248, 248, 0.19);
+}
+
+.card:hover {
+  transition: 0.6s ease-out;
+  -webkit-box-shadow: 0px 0px 26px -6px var(--white);
+  -moz-box-shadow: 0px 0px 26px -6px rgba(248, 248, 248, 0.75);
+  box-shadow: 0px 0px 26px -6px rgba(248, 248, 248, 0.75);
+}
+
+.card:hover hr {
+  transition: 0.6s ease-out;
+  border-color: var(--default-pink);
+}
+
+.card:hover strong {
+  transition: 0.6s ease-out;
+  color: var(--default-pink);
+}
+
+.icon-card {
+  margin: 0.5rem;
+  height: 4rem;
+  width: 4rem;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.skill-name {
+  font-size: 0.8rem;
+  font-weight: 300;
+  letter-spacing: 0.06rem;
+}
+.sub-title {
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 200;
+  color: var(--white);
+}
+.description-spec {
+  text-align: left;
+  font-size: 1.1rem;
+  letter-spacing: 0.08rem;
+  font-weight: 300;
+  color: var(--body-color);
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    position: relative;
+    top: 0;
+    height: auto;
+  }
+}
+
+.side-navigation {
+  position: sticky;
+  top: 10px;
+  z-index: 1;
+}
+
+/* .side-navigation .light-text {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.side-navigation:hover .light-text {
+  display: block;
+  width: 300px;
+  height: 100%;
+  transition: 0.5s ease-in-out;
+  color: var(--default-pink);
+} */

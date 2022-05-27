@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "url": "https://www.segmentify.com/",
+    "company": "Segmentify",
+    "title": "Senior Front End Developer",
+    "description": "Segmentify makes Personalised Product Recommendations according  to the interests of every single customer. Our team of experts analyse your site to combine personal interests, top-performing products and buyer behaviour to create Personalised Product Recommendations according to individual customer preferences."
+  },
+  {
+    "id": 2,
+    "url": "https://www.quicksigorta.com/",
+    "company": "Quick Sigorta",
+    "title": "Senior Front End Developer",
+    "description": "Quick Sigorta is a leading insurance company in Turkey. Their products are used by millions of Turkish people."
+  },
+  {
+    "id": 3,
+    "url": "https://pigomass.com/web/login",
+    "company": "Pigolon",
+    "title": "Front End Developer",
+    "description": "PIGOLON APP supports and optimizes the business processes of incoming tour operators, destination agencies and destination management companies. Thanks to its versatility, flexibility and modular construction, PIGOLON APP can be used by any type of inbound business (FIT, Serial Groups, SIC, Mass Tourism and others), destination agencies and destination management companies – and for all services you offer (hotel, tours, transfers, flights and many more)."
+  },
+  {
+    "id": 4,
+    "url": "http://dorakholding.com.tr/tr/",
+    "company": "Dorak Holding",
+    "title": "Front End Developer",
+    "description": "Dorak Holding was originated in 1971 with the establishment of Dorak Tours which has been actively furnishing services in tourism industry by putting signature to remarkable and significant projects throughout Turkey. The company grew into an establishment of group of companies by 2002 which turned into a holding company by 2011.Today, Dorak Holding Co. embodies several subsidiaries including travel agencies, overseas sales offices, hotels, restaurants, as well as a transportation fleet and a hot air balloon service in Cappadocia. Dorak Holding also invested in mining facilities and established a ceramic factory in Cappadocia."
+  },
+  {
+    "id": 5,
+    "url": "https://www.globalticketer.com/",
+    "company": "Global Ticketer",
+    "title": "Front End Developer",
+    "description": "Global Ticketer is a ticketing company that provides event tickets for B2B and B2C platforms."
+  }
+]

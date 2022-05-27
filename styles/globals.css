@@ -1,9 +1,26 @@
+:root {
+  --default-bg-color: #222428;
+  --white: #ffffff;
+  --default-orange: rgb(254, 161, 47);
+  --default-pink: #ff014f;
+  --body-color: #878e99;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
+    Droid Sans, Helvetica Neue, sans-serif;
+  background-color: var(--default-bg-color);
 }
 
 a {
@@ -11,6 +28,14 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+hr {
+  border: 0.04rem solid var(--white);
+}
+
+ul {
+  list-style: none;
+}
+
+ul > li {
+  margin-bottom: 0.5rem;
 }
