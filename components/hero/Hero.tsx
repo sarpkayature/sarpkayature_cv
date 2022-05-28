@@ -26,13 +26,17 @@ const Hero = () => {
           experiences.
         </p>
         <SocialBar />
-        <div className={`${styles.flex} ${styles["actions-container"]}`}>
+        <div className={`${styles.flex}`}>
           <button className={styles["action-button"]}>Download CV</button>
           <div className={styles["action-button"]}>
             <a href='#contact'>Contact</a>
           </div>
         </div>
       </div>
+      <img
+        src='https://github-readme-stats.vercel.app/api/top-langs/?username=sarpkaya93&theme=radical'
+        className={styles["m-1"]}
+      />
     </section>
   );
 };

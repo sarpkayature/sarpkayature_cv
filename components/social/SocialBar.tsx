@@ -9,22 +9,38 @@ const SocialBar = () => {
   return (
     <div className={`${styles.flex} ${styles["m-1"]}`}>
       <div className={styles["social-bar-container"]}>
-        <a href='https://twitter.com/sarpkayature'>
+        <a
+          href='https://twitter.com/sarpkayature'
+          target='_blank'
+          rel='noreferrer'
+        >
           <Image src={twitterIcon} alt='twitter' />
         </a>
       </div>
       <div className={styles["social-bar-container"]}>
-        <a href='https://medium.com/@sarpkayature'>
+        <a
+          href='https://medium.com/@sarpkayature'
+          target='_blank'
+          rel='noreferrer'
+        >
           <Image src={mediumIcon} alt='medium' />
         </a>
       </div>
       <div className={styles["social-bar-container"]}>
-        <a href='https://www.linkedin.com/in/sarpkayature/'>
+        <a
+          href='https://www.linkedin.com/in/sarpkayature/'
+          target='_blank'
+          rel='noreferrer'
+        >
           <Image src={linkledinIcon} alt='linkledin' />
         </a>
       </div>
       <div className={styles["social-bar-container"]}>
-        <a href='https://github.com/sarpkaya93'>
+        <a
+          href='https://github.com/sarpkaya93'
+          target='_blank'
+          rel='noreferrer'
+        >
           <Image src={githubIcon} alt='github' />
         </a>
       </div>

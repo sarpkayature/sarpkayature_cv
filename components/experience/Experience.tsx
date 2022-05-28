@@ -14,20 +14,26 @@ const Experience = () => {
       </div>
       <hr />
       <div className={styles["description-spec"]}>
-        {Experiences.map(({ id, url, company, title, description }) => {
-          return (
-            <div key={id}>
-              <span className={styles["sub-title"]}>
-                <a href={url}>
-                  <span className={styles["emphasized-text"]}>{company}</span>{" "}
-                </a>{" "}
-                - {title}
-              </span>
-              <br />
-              <p className={styles["description-spec"]}>{description}</p>
-            </div>
-          );
-        })}
+        {Experiences.map(
+          ({ id, url, company, title, startDate, endDate, description }) => {
+            return (
+              <div key={id}>
+                <span className={styles["sub-title"]}>
+                  <a href={url}>
+                    <span className={styles["emphasized-text"]}>{company}</span>{" "}
+                  </a>{" "}
+                  - {title}
+                </span>
+                <br />
+                <span className={styles["sub-title-date"]}>
+                  {startDate} - {endDate}
+                </span>
+                <br />
+                <p className={styles["description-spec"]}>{description}</p>
+              </div>
+            );
+          },
+        )}
       </div>
     </div>
   );

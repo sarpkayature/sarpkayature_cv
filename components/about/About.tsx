@@ -13,16 +13,18 @@ const About = () => {
       </div>
       <hr />
       <p className={styles["description-spec"]}>
-        I created my first hand-coded webpage in 2015 named
+        I created my first hand-coded webpage in <strong>2015</strong> named
         <strong> Global Ticketer</strong>. I was working in a small scale
         company which was a sports tickets trader. I saw an opportunity that,
         sports ticket traders didn’t have a modern system which uses, shares API
-        also modern payment systems. In the first quarter of 2019, Global
-        Ticketer made a great success. I exited my startup to
+        also modern payment systems. In the first quarter of{" "}
+        <strong>2019</strong>, Global Ticketer made a great success. I{" "}
+        <strong>exited</strong> my startup to
         <strong> Dorak Holding </strong>
         at the last quarter of 2019. I have more than 7 years of experience as a
-        front-end developer. I have advanced knowledge of Javascript,
-        outstanding React, Vue & CSS.
+        front-end developer. I have advanced knowledge of{" "}
+        <strong>Javascript</strong>, outstanding <strong>React</strong>,{" "}
+        <strong>Vue</strong> & <strong>CSS</strong>.
       </p>
     </div>
   );
