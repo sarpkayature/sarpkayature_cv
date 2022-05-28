@@ -6,6 +6,10 @@ import { Hero, Resume, SocialBar } from "../components/index";
 const Home: NextPage = () => {
   return (
     <>
+      <Head>
+        <title>Sarpkaya Ture - CV</title>
+        <meta property='og:title' content='Sarpkaya Ture CV' key='title' />
+      </Head>
       <main>
         <div className={styles.container}>
           <div className={styles.flex}>
